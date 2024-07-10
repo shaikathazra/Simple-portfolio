@@ -110,16 +110,25 @@ main{
     color: white;
     text-align: center;
 }
+footer {
+    background-color: #f7f8f8;
+    margin-top: 50px;
+}
 footer div{
     display: flex;
     justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 footer div ul {
     display: flex;
     justify-content: space-between;
 }
 footer div ul li{
-    display: flex;
+    /* display: flex; */
+    list-style: none;
     text-decoration: none;
-    justify-content: space-between;
+    margin-left: 10px;
+    
+    /* justify-content: space-between; */
 }
