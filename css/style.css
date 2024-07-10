@@ -66,7 +66,7 @@ main{
 }
 
 .one{
-    background-color:#B3B3FF ;
+    background-color:#fafafb;
     border-radius: 16px;
     padding: 80px;
     margin-top: 100px;
@@ -90,22 +90,46 @@ main{
 }
 
 .long-card{
-    background-color: aliceblue;
-    padding: 25px;
+    background-color: #fdfdfe; 
+    padding: 20px;
     border-radius: 10px;
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+.long-card h4 , p {
+    color: #555963;;
+}
+.content{
+    padding-right: 70px;
+    padding-left: 20px;
+    margin-right: 70px;
+}
+
+.content h4{
+    font-size: 24px;
 }
 .long-card button{
-    padding: 15px;
+    padding: 5px 15px;
     font-size: 20px;
     margin-top: 16px;
+    background-color: transparent;
+    color: #555963;
+    border: 1px solid #555963;;
 }
 .left{
-    text-align: right;
+    text-align:left;
+}
+.two{
+    margin-top: 80px;
 }
 .video{
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 16px;
+    padding: 30px;
     text-align: center;
+}
+iframe{
+    border-radius: 16px;
 }
 .three{
     margin-top: 80px;
