@@ -22,7 +22,7 @@ nav ul{
     list-style: none;
 }
 nav ul li button{
-    padding: 10px;
+    padding: 20px;
     background-color: white;
     font-size:20px;
     border: 1px solid #0d132198;
@@ -62,5 +62,64 @@ nav ul li button{
 }
 main{
     max-width: 1140px;
-    margin: o auto;
+    margin: 0 auto;
+}
+
+.one{
+    background-color:#B3B3FF ;
+    border-radius: 16px;
+    padding: 80px;
+    margin-top: 100px;
+}
+.title{
+    text-align: center;
+    padding: 15px;
+}
+.title-heading{
+    text-align: center;
+    font-size: 32px;
+    /* font-weight: ; */
+}
+.long-card{
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.long-card button{
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 16px;
+}
+.left{
+    text-align: right;
+}
+.video{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    border-radius: 16px;
+    background-color: #B3B3FF;
+}
+.support{
+    margin-top: 100px;
+    background-image: url(../images/handshake.jpg);
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer div ul {
+    display: flex;
+    justify-content: space-between;
+}
+footer div ul li{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
 }
